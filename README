@@ -1,0 +1,10 @@
+STAGEONE
+========
+
+Stageone is a very basic child theme of the new Bootstrap4 based theme_boost from MoodleHQ.
+
+This child theme is primarily intended for those busy teachers who know some CSS and are happy to add simple restyling using that, but have not yet come to grips with SASS/SCSS. This recognises that some users will not have access to command line php to run the script included with theme_boost on an existing bootswatch and others who may be put off by the idea of editing the SCSS files for the presets, or learning enough scss to make use of the settings in theme_boost. (Although it is also hoped that such people can be engaged and brought into the community as a learning experience for them to move on to such customisations :) )
+It is anticipated that full blown themes such as variations on Essential/Flexibase/Adaptable and others will soon arrive, with multiple settings and additional features, to fill the gap for those users who do not want, or have the time, to get to grips with the variables or additional SCSS or CSS.
+
+StageOne is *not* intended as a full development child theme for those comfortable with adjusting layouts - although could be used as a very basic starting point.
+Note: For those who simply want to alter look and feel without adjusting layouts or features, then a better solution would be to create a new 'preset' to add to the existing Boost theme (rename and edit an existing preset, or if you have access to command line, run the script included in Boost on a bootswatch template.)
