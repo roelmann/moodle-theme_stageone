@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,28 +16,26 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * stageone config.
+ * StageOne minimalist Boost child theme.
  *
- * @package   theme_stageone
- * @copyright 2016 Richard Oelmann
- * @credits   2016 Theme_boost MoodleHQ
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    theme_stageone
+ * @copyright  2017 Richard Oelmann
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-require_once($CFG->dirroot.'/theme/boost/lib.php');
-
 $THEME->name = 'stageone';
-$THEME->scssfile = theme_boost_get_scss_file($THEME);
-$THEME->sheets = ['stageone'];
-$THEME->editor_sheets = ['editor'];
-
 $THEME->parents = ['boost'];
-$THEME->enable_dock = false;
-$THEME->csstreepostprocessor = 'theme_boost_css_tree_post_processor';
-$THEME->extrascsscallback = 'theme_boost_get_extra_scss';
-$THEME->scssvariablescallback = 'theme_boost_get_scss_variables';
-$THEME->supportscssoptimisation = false;
-$THEME->yuicssmodules = array();
+
+$THEME->sheets = ['custom'];
+
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
+
+$THEME->requiredblocks = '';
+$THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_FLATNAV;
+
+// Legacy settings.
+$THEME->enable_dock = false;
+$THEME->yuicssmodules = array();
+$THEME->editor_sheets = [];

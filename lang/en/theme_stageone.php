@@ -15,17 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * stageone language file.
+ * StageOne minimalist Boost child theme.
  *
- * @package   theme_stageone
- * @copyright 2016 Richard Oelmann
- * @credits   2016 Theme_boost MoodleHQ
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    theme_stageone
+ * @copyright  2017 Richard Oelmann
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['choosereadme'] = 'Stageone is a basic child theme of the new Bootstrap4 based theme_boost from MoodleHQ.<br>This child theme is primarily intended for those busy teachers who know some CSS and are happy to add simple restyling using that, but have not yet come to grips with SASS/SCSS.<br>It is not intended as a full development child theme - although could be used as a very basic starting point. It is anticipated that full blown themes such as Essential/Flexibase/Adaptable and others will soon arrive, with multiple settings and additional features, to fill the gap for those users who do not want, or have the time, to get to grips with the variables or additional SCSS or CSS.';
-$string['pluginname'] = 'stageone';
-$string['region-side-post'] = 'Right';
-$string['region-side-pre'] = 'Left';
+$string['pluginname'] = 'StageOne';
+
+$string['choosereadme'] = 'Theme StageOne is a minimalist child theme of Boost. It is designed as a starting point for development, rather than as a theme for use as it is.';
+
+$string['region-side-pre'] = 'Right';
